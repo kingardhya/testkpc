@@ -1,0 +1,34 @@
+Penggunaan Github
+1. Install Github
+2. buat Repository
+3. Me-nambahkan project ke github
+- Git Bash Here pada folder project
+- Git init
+- Git add *
+- Git commit -m "ok"
+- git remote add origin https://github.com/kingardhya/ITFORM001.git
+- git push -u origin master
+
+4. Ganti nama remote
+git remote rename origin kpc
+
+5. Push (revisi) Project ke Github
+git add .
+git commit -m "dari kantor"
+git push origin master
+
+6. Pull ke PC baru
+git clone https://github.com/kingardhya/ITFORM001.git
+git add .
+git commit -m "dari kantor"
+git push origin master
+
+Question :
+* Jika 2 user memiliki 2 repositori lokal yang sama tetapi yg 1 sudah diedit yg 1 belum, ketika di push maka akan ada 3
+repositori yang berbeda? menumpuk atau teroverwrite?
+* apakah bisa mengoverwrite semua project di repositori github?
+* cara meng-pull project di github ke local? Apakah itu mengoverwrite di local?
+* cara set private github
+* penggunaan github dekstop
+
+git config --global http.proxy http://ardhyap:intelcore@proxy.kpc.co.id:8080
